@@ -1,0 +1,62 @@
+.app{
+    background:#05253a;
+    padding:30px;
+    height:100vh;
+  }
+  body {
+      align-items: center;
+  }
+  
+  .todo-list{
+    background: #e8e8e8;
+    border-radius: 4px;
+    padding:27px;
+    /* max-width:400px; */
+    text-align: center;
+  }
+  div form input {
+      text-align: center;
+  }
+  button.cancel {
+      background-color: rgb(170, 10, 10);
+      color: #fff;
+      margin-right: .5rem;
+      padding: .6rem .9rem;
+      cursor: pointer;
+      border-radius: 5px;
+      
+  }
+  button.accomplished {
+      background-color: rgb(10, 70, 10);
+      color: #fff;
+      margin-right: .5rem;
+      padding: .6rem .9rem;
+      cursor: pointer;
+      border-radius: 5px;
+      
+  }
+
+ input {
+        display: block;
+        width: 25%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #d9e3ec;
+        background-color: rgb(148, 130, 130);
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .todoList{
+   background:white;
+   box-shadow:1px 1px 1px rgba(0,0,0,0.15);
+   padding:3px 10px;
+   font-size:12px;
+   margin-bottom:6px;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between
+  }
